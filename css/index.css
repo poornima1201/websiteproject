@@ -1,0 +1,46 @@
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  border-bottom: 3px solid transparent;
+}
+
+.container{
+ color: red;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (min-width: 576px){
+  .container{
+  color:blue;
+}
+}
+@media (min-width: 1200px) {
+  .container{
+    color:black;
+  }
+}
+
+
+
+
+.topnav a.active {
+  border-bottom: 3px solid white;
+}
+
+.vl a {
+
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+
+  margin-right: 40px;
+}
